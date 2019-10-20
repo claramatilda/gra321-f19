@@ -1,0 +1,22 @@
+/* Styles for Project 6 */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding: 5%;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+ul {
+    margin-bottom: 2rem;
+}
