@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
   position: relative;
   text-align: center;
@@ -24,7 +28,7 @@
 }
 
 .contact{
-    display: inline;
+    float: right;
     font-size: 200%;
 } 
 
