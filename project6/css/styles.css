@@ -19,27 +19,14 @@
     letter-spacing: 5px;
 }
 
-body {
-    padding: 50px;
+.location{
+    float: left;
 }
 
-.location {
-    padding: 20px 40px 40px;
-    max-width: 640px;
-    &_image {
-        display: inline-block;
-        vertical-align: top;
-        width: 46%;
-        margin: 20px 30px 0 0;
-    }
-    &contact {
-        display: inline-block;
-        width: 46%;
-        @media (max-width: 620px) {
-            width: 100%;
-        }
-    }
-}
+.contact{
+    float: right;
+    font-size: 200%;
+} 
 
 img {
     max-width: 100%;
