@@ -21,8 +21,9 @@
 
 .location{
   display: grid;
-  grid-template-columns: 46% 46%;
+  grid-template-columns: 200px 200px;
   grid-gap: 20px;
+  font-size: 200%;
 }
 
 .location div {
@@ -78,9 +79,17 @@ a:active{
     text-decoration: none;
 }
 
+.about{
+    text-align: center;
+    font-size: 200%
+}
 .center{
     text-align: center;
     font-size: 150%
+}
+
+.icons{
+    text-align: center;
 }
 
 ul {
