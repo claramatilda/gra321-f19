@@ -38,6 +38,9 @@ body{
     font-weight: 400;
     font-style: normal
 }
+.menu{
+    font-size: 150%;
+}
 
 #top-list{
   list-style-type: none;
@@ -55,6 +58,7 @@ body{
         display: inline-block;
         width: 100%;
 }
+
 #nav li {
         display: inline-block;
 }
@@ -81,11 +85,12 @@ a:active{
 
 .about{
     text-align: center;
-    font-size: 200%
+    font-size: 200%;
 }
+
 .center{
     text-align: center;
-    font-size: 150%
+    font-size: 150%;
 }
 
 .icons{
