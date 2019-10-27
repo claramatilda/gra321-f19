@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding: 5%;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
 .container {
   position: relative;
   text-align: center;
@@ -19,13 +28,28 @@
     letter-spacing: 5px;
 }
 
-body{
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-    padding: 5%;
-    font-family: bebas-neue, sans-serif;
-    font-weight: 400;
-    font-style: normal
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px;
+    background-color: #fff;
+}
+
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 200%;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 150%;
 }
 
 #top-list{
