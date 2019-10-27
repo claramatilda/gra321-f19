@@ -24,7 +24,7 @@
 }
 
 .contact{
-    display: inline;
+    float: right;
     font-size: 200%;
 } 
 
@@ -38,7 +38,8 @@ body{
     padding: 5%;
     font-family: bebas-neue, sans-serif;
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-size: 200%;
 }
 
 #top-list{
@@ -83,4 +84,5 @@ a:active{
 
 ul {
     margin-bottom: 2rem;
+    float:left;
 }
