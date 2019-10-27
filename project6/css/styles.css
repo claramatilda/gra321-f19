@@ -24,13 +24,14 @@ img {
 }
 
 .location{
-    float: left;
+  display: grid;
+  grid-template-columns: 46% 46%;
+  grid-gap: 20px;
 }
 
-.contact{
-    float: right;
-    font-size: 200%;
-} 
+.location div {
+  padding: 1rem;
+}
 
 img {
     max-width: 100%;
