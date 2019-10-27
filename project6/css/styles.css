@@ -24,7 +24,7 @@
 }
 
 .contact{
-    float: right;
+    display: inline;
     font-size: 200%;
 } 
 
