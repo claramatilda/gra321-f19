@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-}
-
 .container {
   position: relative;
   text-align: center;
@@ -31,10 +27,6 @@ img {
 
 .location div {
   padding: 1rem;
-}
-
-img {
-    max-width: 100%;
 }
 
 body{
@@ -84,6 +76,11 @@ a:hover{
 a:active{
     color:black;
     text-decoration: none;
+}
+
+.center{
+    text-align: center;
+    font-size: 150%
 }
 
 ul {
