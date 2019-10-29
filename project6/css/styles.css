@@ -30,9 +30,11 @@ body{
 
 .grid{
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 400px 400px;
+    grid-gap: 4rem;
+    grid-template-columns: 1fr 1fr;
     background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .one {
