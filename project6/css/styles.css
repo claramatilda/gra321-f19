@@ -95,12 +95,21 @@ a:active{
     text-decoration: none;
 }
 
+@media only screen and (min-width: 800px) {
+  .center {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    font-size: 150%;
+  }
+}
+
 .about{
     text-align: center;
     font-size: 200%;
 }
 
-.center{
+.text{
     text-align: center;
     font-size: 150%;
 }
